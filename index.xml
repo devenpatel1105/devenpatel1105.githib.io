@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Deven Patel</title>
+    <link>/</link>
+    <description>Recent content on Deven Patel</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-US</language>
+    <lastBuildDate>Wed, 09 Dec 2020 00:00:00 +0000</lastBuildDate><atom:link href="/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Why Numpy Matters</title>
+      <link>/post/2020/12/09/why-numpy-matters/</link>
+      <pubDate>Wed, 09 Dec 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/post/2020/12/09/why-numpy-matters/</guid>
+      <description>The Use of Numpy in Python.
+One of the main benefits of R is that comes ready with built in functions. For example, helpful functions like matrix ops, trig functions, and graphics all come with R. Python, another important coding language, does not come with many of these built in functions. However, it is a very common language and so it would be useful if there was a way to use these functions in Python.</description>
+    </item>
+    
+    <item>
+      <title>Project 2: Modeling, Testing, and Predicting</title>
+      <link>/project/project1/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/project/project1/</guid>
+      <description>Modeling Instructions A knitted R Markdown document (preferably HTML) and the raw R Markdown file (as .Rmd) should both be submitted to Canvas by 11:59pm on the due date. These two documents will be graded jointly, so they must be consistent (i.e., don’t change the R Markdown file without also updating the knitted document). Knit an html copy too, for later! In the .Rmd file for Project 2, you can copy the first code-chunk into your project .</description>
+    </item>
+    
+  </channel>
+</rss>

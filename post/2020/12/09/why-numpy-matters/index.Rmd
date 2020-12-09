@@ -1,0 +1,31 @@
+---
+title: Why Numpy Matters
+author: ''
+date: '2020-12-09'
+slug: why-numpy-matters
+categories: []
+tags: []
+description: ''
+---
+*The Use of Numpy in Python.*
+
+*One of the main benefits of R is that comes ready with built in functions. For example, helpful functions like matrix ops, trig functions, and graphics all come with R. Python, another important coding language, does not come with many of these built in functions. However, it is a very common language and so it would be useful if there was a way to use these functions in Python. That's where numpy comes in. By importing numpy, you can access several different functions that allow one to work with data in python the way they can in R. In the following post we'll walk through some different ways to use numpy whiel working with data.*
+
+```{r}
+library(reticulate) #this package allows R and Python to communicate with each other
+snakequakes <- quakes #we'll be using an earthquakes datatset
+
+```
+
+```{python}
+import numpy as np
+
+r.snakequakes.long.describe()
+
+r.snakequakes.stations.describe()
+```
+*You'll notice that I never imported the dataset into python. However, by using reticulate we are able to work in Python with data loaded in R. Additionally, by importing numpy I was able to find the summary statistics of the data. This would not have been possible without the use of numpy.*
+
+![](/2020-12-09-why-numpy-matters/index_files/Tyler,_the_Creator_-_Earfquake_(Channel_Tres_remix).jpg)
+
+*Since the data is about earthquakes I figured I'd share a picture of Tyler the Creator's Earthquake.*
